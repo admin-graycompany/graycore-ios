@@ -1,6 +1,6 @@
 # GrayCore
 
-[![CI Status](https://img.shields.io/travis/ricardorauber-gray/GrayCore.svg?style=flat)](https://travis-ci.org/ricardorauber-gray/GrayCore)
+[![CI Status](https://img.shields.io/travis/admin-graycompany/GrayCore.svg?style=flat)](https://travis-ci.org/admin-graycompany/GrayCore)
 [![Version](https://img.shields.io/cocoapods/v/GrayCore.svg?style=flat)](https://cocoapods.org/pods/GrayCore)
 [![License](https://img.shields.io/cocoapods/l/GrayCore.svg?style=flat)](https://cocoapods.org/pods/GrayCore)
 [![Platform](https://img.shields.io/cocoapods/p/GrayCore.svg?style=flat)](https://cocoapods.org/pods/GrayCore)

@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  GrayCore
-//
-//  Created by ricardorauber-gray on 09/26/2019.
-//  Copyright (c) 2019 ricardorauber-gray. All rights reserved.
-//
-
 import UIKit
 import GrayCore
 
