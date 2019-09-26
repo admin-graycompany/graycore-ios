@@ -1,0 +1,16 @@
+PODS:
+  - GrayCore (0.1.0)
+
+DEPENDENCIES:
+  - GrayCore (from `../`)
+
+EXTERNAL SOURCES:
+  GrayCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GrayCore: c252c3b705582e86abdbeaa029c32a3851046b1e
+
+PODFILE CHECKSUM: 18707aab05d0a9d180f5d55436391c54aae5a505
+
+COCOAPODS: 1.7.5

@@ -1,0 +1,6 @@
+framework module Pods_GrayCore_Tests {
+  umbrella header "Pods-GrayCore_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

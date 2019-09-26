@@ -1,0 +1,22 @@
+{
+  "name": "GrayCore",
+  "version": "0.1.0",
+  "summary": "A short description of GrayCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ricardorauber-gray/GrayCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ricardorauber-gray": "ricardo@graycompany.com.br"
+  },
+  "source": {
+    "git": "https://github.com/ricardorauber-gray/GrayCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GrayCore/Classes/**/*"
+}

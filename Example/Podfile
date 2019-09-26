@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GrayCore_Example' do
+  pod 'GrayCore', :path => '../'
+
+  target 'GrayCore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
