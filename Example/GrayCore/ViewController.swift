@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 		let router = Router()
 		let destination: SceneViewController? = router.destination(for: .Scene)
-		print(destination?.test)
+		print(destination?.test ?? "")
     }
 
     override func didReceiveMemoryWarning() {
