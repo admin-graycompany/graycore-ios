@@ -12,6 +12,7 @@
 		47B458A2233D330E0011A4F7 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458A1233D330E0011A4F7 /* RouterTests.swift */; };
 		47B458A4233D33870011A4F7 /* Scene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B458A3233D33870011A4F7 /* Scene.storyboard */; };
 		47B458A6233D37020011A4F7 /* SceneRouterPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458A5233D37020011A4F7 /* SceneRouterPath.swift */; };
+		47B458AC233D67E60011A4F7 /* CustomErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */; };
 		5D58A9D7B1C0E4D7EEE7DB9D /* Pods_GrayCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53B30103250EB7B9889A6B /* Pods_GrayCore_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 		47B458A1233D330E0011A4F7 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		47B458A3233D33870011A4F7 /* Scene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scene.storyboard; sourceTree = "<group>"; };
 		47B458A5233D37020011A4F7 /* SceneRouterPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRouterPath.swift; sourceTree = "<group>"; };
+		47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorTests.swift; sourceTree = "<group>"; };
 		497322E01BF182FBA6B18E2A /* Pods-GrayCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrayCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GrayCore_Tests/Pods-GrayCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B53B30103250EB7B9889A6B /* Pods_GrayCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrayCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GrayCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrayCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		47B4589C233D32CB0011A4F7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				47B458AA233D675C0011A4F7 /* CustomError */,
 				47B4589D233D32D10011A4F7 /* Router */,
 			);
 			name = Source;
@@ -90,6 +93,14 @@
 				47B458A1233D330E0011A4F7 /* RouterTests.swift */,
 			);
 			name = Router;
+			sourceTree = "<group>";
+		};
+		47B458AA233D675C0011A4F7 /* CustomError */ = {
+			isa = PBXGroup;
+			children = (
+				47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */,
+			);
+			name = CustomError;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -370,6 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47B458A2233D330E0011A4F7 /* RouterTests.swift in Sources */,
+				47B458AC233D67E60011A4F7 /* CustomErrorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 import XCTest
-import GrayCore
+@testable import GrayCore
 @testable import GrayCore_Example
 
 class RouterTests: XCTestCase {
