@@ -22,7 +22,7 @@ pod 'GrayCore'
 
 ## Author
 
-ricardorauber-gray, ricardo@graycompany.com.br
+Gray Company
 
 ## License
 
