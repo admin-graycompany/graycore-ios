@@ -46,4 +46,12 @@ class EmailValidatorTests: XCTestCase {
 	func testInvalidShortEmail() {
 		XCTAssertFalse(Validator.isValid(email: "a@b.c"))
 	}
+	
+	func testInvalidPrefix() {
+		XCTAssertFalse(Validator.isValid(email: "ops balu@graycompany.com.br"))
+	}
+	
+	func testInvalidSuffix() {
+		XCTAssertFalse(Validator.isValid(email: "balu@graycompany.com.br ops"))
+	}
 }

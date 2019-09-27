@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 	s.name             = 'GrayCore'
-	s.version          = '0.1.1'
+	s.version          = '0.1.2'
 	s.summary          = 'iOS tools'
 	s.swift_versions   = '5.0'
 	
