@@ -1,5 +1,6 @@
 import XCTest
 @testable import GrayCore
+@testable import GrayCore_Example
 
 class CustomErrorTests: XCTestCase {
 

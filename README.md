@@ -20,6 +20,40 @@ it, simply add the following line to your Podfile:
 pod 'GrayCore'
 ```
 
+## Usage
+
+### CustomError
+
+This is a very simple, yet helpful, error with a string.
+
+```swift
+let error: Error = CustomError(message: "Error description")
+print(error.localizedDescription)
+```
+
+### Router
+
+The Router can instantiate the initial view controller from  a Storyboard file. Because it use generics, it will try to cast it with the informed class type.
+
+```swift
+let router = Router()
+let path = RouterPath(rawValue: "Scene")
+let destination: SceneViewController? = router.destination(for: path)
+```
+
+The RouterPath is the component that has the Storyboard name and it can be easily extended for a better code:
+
+```swift
+extension RouterPath {
+	public static var Scene: RouterPath {
+		return RouterPath(rawValue: "Scene")
+	}
+}
+
+let router = Router()
+let destination: SceneViewController? = router.destination(for: .Scene)
+```
+
 ## Author
 
 Gray Company
