@@ -16,6 +16,8 @@
 		47B458B1233E3B510011A4F7 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B0233E3B510011A4F7 /* Validator.swift */; };
 		47B458B3233E3BD00011A4F7 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B2233E3BD00011A4F7 /* EmailValidator.swift */; };
 		47B458B8233E49A10011A4F7 /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B7233E49A10011A4F7 /* PhoneValidator.swift */; };
+		47B458BD233E893E0011A4F7 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458BC233E893E0011A4F7 /* Formatter.swift */; };
+		47B458BF233E898C0011A4F7 /* PhoneFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458BE233E898C0011A4F7 /* PhoneFormatter.swift */; };
 		4C7FD552CF39C737DD505E9A8645C77A /* Pods-GrayCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D31D574BDA2235F1942EA27D306AE97 /* Pods-GrayCore_Tests-dummy.m */; };
 		4E47DE9052808BB7E0EA81C728F0E4B5 /* Pods-GrayCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0614018835ABA3D7F2FD4A77AAC7ADFB /* Pods-GrayCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5881871E7A3721A7214A74F0E5126C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -61,6 +63,8 @@
 		47B458B0233E3B510011A4F7 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		47B458B2233E3BD00011A4F7 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 		47B458B7233E49A10011A4F7 /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		47B458BC233E893E0011A4F7 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		47B458BE233E898C0011A4F7 /* PhoneFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFormatter.swift; sourceTree = "<group>"; };
 		5059B74B4BC2A3DB199EAEFFDE17E4A8 /* Pods-GrayCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GrayCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		583E7FAC14389B6A9D96FA6690B53500 /* GrayCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GrayCore.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5D48557960F95CF9C623637361F4172F /* GrayCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GrayCore.modulemap; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				47B458A7233D67170011A4F7 /* CustomError */,
+				47B458BB233E89200011A4F7 /* Formatter */,
 				47B45893233D31FA0011A4F7 /* Router */,
 				47B458AF233E3B2B0011A4F7 /* Validator */,
 			);
@@ -177,6 +182,15 @@
 				47B458B7233E49A10011A4F7 /* PhoneValidator.swift */,
 			);
 			path = Validator;
+			sourceTree = "<group>";
+		};
+		47B458BB233E89200011A4F7 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				47B458BC233E893E0011A4F7 /* Formatter.swift */,
+				47B458BE233E898C0011A4F7 /* PhoneFormatter.swift */,
+			);
+			path = Formatter;
 			sourceTree = "<group>";
 		};
 		5DE16AB7AD0FD186FB7420EB2C2366D2 /* Products */ = {
@@ -430,11 +444,13 @@
 				47B458AE233E39040011A4F7 /* CustomError.swift in Sources */,
 				47B458B3233E3BD00011A4F7 /* EmailValidator.swift in Sources */,
 				47B45899233D32340011A4F7 /* Router.swift in Sources */,
+				47B458BD233E893E0011A4F7 /* Formatter.swift in Sources */,
 				47B45897233D321E0011A4F7 /* RouterProtocol.swift in Sources */,
 				7199DA08A58AAD274F0A64413448F74E /* GrayCore-dummy.m in Sources */,
 				47B458B1233E3B510011A4F7 /* Validator.swift in Sources */,
 				47B45895233D320A0011A4F7 /* RouterPath.swift in Sources */,
 				47B458B8233E49A10011A4F7 /* PhoneValidator.swift in Sources */,
+				47B458BF233E898C0011A4F7 /* PhoneFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

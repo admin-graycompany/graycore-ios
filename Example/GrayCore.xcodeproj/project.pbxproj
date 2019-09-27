@@ -15,6 +15,7 @@
 		47B458AC233D67E60011A4F7 /* CustomErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */; };
 		47B458B6233E3E7D0011A4F7 /* EmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B5233E3E7D0011A4F7 /* EmailValidatorTests.swift */; };
 		47B458BA233E4B930011A4F7 /* PhoneValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B9233E4B930011A4F7 /* PhoneValidatorTests.swift */; };
+		47B458C2233E93290011A4F7 /* PhoneFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458C1233E93290011A4F7 /* PhoneFormatterTests.swift */; };
 		5D58A9D7B1C0E4D7EEE7DB9D /* Pods_GrayCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53B30103250EB7B9889A6B /* Pods_GrayCore_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorTests.swift; sourceTree = "<group>"; };
 		47B458B5233E3E7D0011A4F7 /* EmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorTests.swift; sourceTree = "<group>"; };
 		47B458B9233E4B930011A4F7 /* PhoneValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidatorTests.swift; sourceTree = "<group>"; };
+		47B458C1233E93290011A4F7 /* PhoneFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFormatterTests.swift; sourceTree = "<group>"; };
 		497322E01BF182FBA6B18E2A /* Pods-GrayCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrayCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GrayCore_Tests/Pods-GrayCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B53B30103250EB7B9889A6B /* Pods_GrayCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrayCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GrayCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrayCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				47B458AA233D675C0011A4F7 /* CustomError */,
+				47B458C0233E93090011A4F7 /* Formatter */,
 				47B4589D233D32D10011A4F7 /* Router */,
 				47B458B4233E3E610011A4F7 /* Validator */,
 			);
@@ -115,6 +118,14 @@
 				47B458B9233E4B930011A4F7 /* PhoneValidatorTests.swift */,
 			);
 			name = Validator;
+			sourceTree = "<group>";
+		};
+		47B458C0233E93090011A4F7 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				47B458C1233E93290011A4F7 /* PhoneFormatterTests.swift */,
+			);
+			name = Formatter;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -397,6 +408,7 @@
 				47B458B6233E3E7D0011A4F7 /* EmailValidatorTests.swift in Sources */,
 				47B458A2233D330E0011A4F7 /* RouterTests.swift in Sources */,
 				47B458AC233D67E60011A4F7 /* CustomErrorTests.swift in Sources */,
+				47B458C2233E93290011A4F7 /* PhoneFormatterTests.swift in Sources */,
 				47B458BA233E4B930011A4F7 /* PhoneValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
