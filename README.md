@@ -101,7 +101,7 @@ print(result) // true
 
 ## ViewModel
 
-The ViewModel class was created in a way that it could be simple and still very flexible and powerful. It has only 3 methods: 
+The ViewModel class was designed to be simple but very flexible and powerful. It has only 3 methods: 
 
 * bind(_ listener: @escaping (T?) -> Void)
 * set(data: T?)
@@ -144,15 +144,23 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		viewModel.bind { counter in
-			guard let counter = counter else { return }
 			self.updateUI(counter: counter)
 		}
-		viewModel.set(data: Counter(title: "Counter", currentValue: 0))
+		updateUI(counter: nil)
 	}
 	
-	func updateUI(counter: Counter) {
-		titleLabel.text = counter.title
-		currentValueLabel.text = "\(counter.currentValue)"
+	func updateUI(counter: Counter?) {
+		let empty = "-"
+		titleLabel.text = counter?.title ?? empty
+		var value = empty
+		if let currentValue = counter?.currentValue {
+			value = "\(currentValue)"
+		}
+		currentValueLabel.text = value
+	}
+	
+	@IBAction private func resetButtonTouchUpInside(_ sender: UIButton) {
+		viewModel.set(data: Counter(title: "Counter", currentValue: 0))
 	}
 	
 	@IBAction private func incrementButtonTouchUpInside(_ sender: UIButton) {

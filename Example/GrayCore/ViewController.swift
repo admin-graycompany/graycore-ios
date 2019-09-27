@@ -20,15 +20,23 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		viewModel.bind { counter in
-			guard let counter = counter else { return }
 			self.updateUI(counter: counter)
 		}
-		viewModel.set(data: Counter(title: "Counter", currentValue: 0))
+		updateUI(counter: nil)
 	}
 	
-	func updateUI(counter: Counter) {
-		titleLabel.text = counter.title
-		currentValueLabel.text = "\(counter.currentValue)"
+	func updateUI(counter: Counter?) {
+		let empty = "-"
+		titleLabel.text = counter?.title ?? empty
+		var value = empty
+		if let currentValue = counter?.currentValue {
+			value = "\(currentValue)"
+		}
+		currentValueLabel.text = value
+	}
+	
+	@IBAction private func resetButtonTouchUpInside(_ sender: UIButton) {
+		viewModel.set(data: Counter(title: "Counter", currentValue: 0))
 	}
 	
 	@IBAction private func incrementButtonTouchUpInside(_ sender: UIButton) {
