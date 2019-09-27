@@ -1,15 +1,9 @@
 # GrayCore
 
-[![CI Status](https://img.shields.io/travis/admin-graycompany/GrayCore.svg?style=flat)](https://travis-ci.org/admin-graycompany/GrayCore)
+[![CI Status](https://travis-ci.com/admin-graycompany/graycore-ios.svg?branch=master)](https://travis-ci.com/admin-graycompany/graycore-ios.svg?branch=master)
 [![Version](https://img.shields.io/cocoapods/v/GrayCore.svg?style=flat)](https://cocoapods.org/pods/GrayCore)
 [![License](https://img.shields.io/cocoapods/l/GrayCore.svg?style=flat)](https://cocoapods.org/pods/GrayCore)
 [![Platform](https://img.shields.io/cocoapods/p/GrayCore.svg?style=flat)](https://cocoapods.org/pods/GrayCore)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -54,9 +48,19 @@ let router = Router()
 let destination: SceneViewController? = router.destination(for: .Scene)
 ```
 
+### Validator
+
+The Validator can be used to validate general data such as email or phone number. It can be extended with other static validations.
+
+#### Email
+
+```swift
+Validator.isValid(email: "balu.gray-10+app@graycompany.com.br")
+```
+
 ## Author
 
-Gray Company
+Gray Company <contato@graycompany.com.br>
 
 ## License
 

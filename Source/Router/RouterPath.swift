@@ -1,3 +1,5 @@
+import Foundation
+
 /// Paths of the scenes for the router
 public struct RouterPath: RawRepresentable, Equatable, Hashable {
 	public typealias RawValue = String
