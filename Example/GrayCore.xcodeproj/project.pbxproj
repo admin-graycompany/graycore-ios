@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		31AB0ECB63D5DF13D815091E /* Pods_GrayCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46184DBE95B70A6BA10A4E31 /* Pods_GrayCore_Example.framework */; };
+		4741E64723A192EA00F343ED /* StringPhoneValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741E64523A1928000F343ED /* StringPhoneValidationTests.swift */; };
+		4741E64B23A1956800F343ED /* StringCPFValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741E64A23A1956700F343ED /* StringCPFValidationTests.swift */; };
+		4741E64F23A195D200F343ED /* StringCNPJValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4741E64E23A195D200F343ED /* StringCNPJValidationTests.swift */; };
 		47B4589B233D32A20011A4F7 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B4589A233D32A20011A4F7 /* SceneViewController.swift */; };
 		47B458A2233D330E0011A4F7 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458A1233D330E0011A4F7 /* RouterTests.swift */; };
 		47B458A4233D33870011A4F7 /* Scene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B458A3233D33870011A4F7 /* Scene.storyboard */; };
 		47B458A6233D37020011A4F7 /* SceneRouterPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458A5233D37020011A4F7 /* SceneRouterPath.swift */; };
 		47B458AC233D67E60011A4F7 /* CustomErrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */; };
-		47B458B6233E3E7D0011A4F7 /* EmailValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B5233E3E7D0011A4F7 /* EmailValidatorTests.swift */; };
-		47B458BA233E4B930011A4F7 /* PhoneValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458B9233E4B930011A4F7 /* PhoneValidatorTests.swift */; };
-		47B458C2233E93290011A4F7 /* PhoneFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458C1233E93290011A4F7 /* PhoneFormatterTests.swift */; };
 		47B458C8233E9F520011A4F7 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458C7233E9F520011A4F7 /* ViewModelTests.swift */; };
-		47B458D623424D270011A4F7 /* CPFValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B458D523424D270011A4F7 /* CPFValidatorTests.swift */; };
 		5D58A9D7B1C0E4D7EEE7DB9D /* Pods_GrayCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B53B30103250EB7B9889A6B /* Pods_GrayCore_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -39,17 +38,16 @@
 /* Begin PBXFileReference section */
 		2ACE78ABE3701B8909F38BED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		46184DBE95B70A6BA10A4E31 /* Pods_GrayCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrayCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4741E64523A1928000F343ED /* StringPhoneValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringPhoneValidationTests.swift; sourceTree = "<group>"; };
+		4741E64A23A1956700F343ED /* StringCPFValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCPFValidationTests.swift; sourceTree = "<group>"; };
+		4741E64E23A195D200F343ED /* StringCNPJValidationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringCNPJValidationTests.swift; sourceTree = "<group>"; };
 		47B4589A233D32A20011A4F7 /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		47B458A0233D330E0011A4F7 /* GrayCore_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrayCore_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
 		47B458A1233D330E0011A4F7 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		47B458A3233D33870011A4F7 /* Scene.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Scene.storyboard; sourceTree = "<group>"; };
 		47B458A5233D37020011A4F7 /* SceneRouterPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneRouterPath.swift; sourceTree = "<group>"; };
 		47B458AB233D67E60011A4F7 /* CustomErrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrorTests.swift; sourceTree = "<group>"; };
-		47B458B5233E3E7D0011A4F7 /* EmailValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidatorTests.swift; sourceTree = "<group>"; };
-		47B458B9233E4B930011A4F7 /* PhoneValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidatorTests.swift; sourceTree = "<group>"; };
-		47B458C1233E93290011A4F7 /* PhoneFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneFormatterTests.swift; sourceTree = "<group>"; };
 		47B458C7233E9F520011A4F7 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
-		47B458D523424D270011A4F7 /* CPFValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFValidatorTests.swift; sourceTree = "<group>"; };
 		497322E01BF182FBA6B18E2A /* Pods-GrayCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrayCore_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GrayCore_Tests/Pods-GrayCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B53B30103250EB7B9889A6B /* Pods_GrayCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrayCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* GrayCore_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrayCore_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,11 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4741E64423A1923600F343ED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4741E64E23A195D200F343ED /* StringCNPJValidationTests.swift */,
+				4741E64A23A1956700F343ED /* StringCPFValidationTests.swift */,
+				4741E64523A1928000F343ED /* StringPhoneValidationTests.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		47B4589C233D32CB0011A4F7 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				47B458AA233D675C0011A4F7 /* CustomError */,
-				47B458C0233E93090011A4F7 /* Formatter */,
+				4741E64423A1923600F343ED /* Extensions */,
 				47B4589D233D32D10011A4F7 /* Router */,
 				47B458B4233E3E610011A4F7 /* Validator */,
 				47B458C6233E9F360011A4F7 /* ViewModel */,
@@ -119,19 +127,8 @@
 		47B458B4233E3E610011A4F7 /* Validator */ = {
 			isa = PBXGroup;
 			children = (
-				47B458B5233E3E7D0011A4F7 /* EmailValidatorTests.swift */,
-				47B458B9233E4B930011A4F7 /* PhoneValidatorTests.swift */,
-				47B458D523424D270011A4F7 /* CPFValidatorTests.swift */,
 			);
 			name = Validator;
-			sourceTree = "<group>";
-		};
-		47B458C0233E93090011A4F7 /* Formatter */ = {
-			isa = PBXGroup;
-			children = (
-				47B458C1233E93290011A4F7 /* PhoneFormatterTests.swift */,
-			);
-			name = Formatter;
 			sourceTree = "<group>";
 		};
 		47B458C6233E9F360011A4F7 /* ViewModel */ = {
@@ -346,11 +343,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GrayCore_Example/Pods-GrayCore_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CPF-CNPJ-Validator/CPF_CNPJ_Validator.framework",
 				"${BUILT_PRODUCTS_DIR}/GrayCore/GrayCore.framework",
+				"${BUILT_PRODUCTS_DIR}/PhoneNumberKit/PhoneNumberKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwifterSwift/SwifterSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CPF_CNPJ_Validator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GrayCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PhoneNumberKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwifterSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,13 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B458B6233E3E7D0011A4F7 /* EmailValidatorTests.swift in Sources */,
 				47B458A2233D330E0011A4F7 /* RouterTests.swift in Sources */,
+				4741E64F23A195D200F343ED /* StringCNPJValidationTests.swift in Sources */,
 				47B458C8233E9F520011A4F7 /* ViewModelTests.swift in Sources */,
+				4741E64B23A1956800F343ED /* StringCPFValidationTests.swift in Sources */,
+				4741E64723A192EA00F343ED /* StringPhoneValidationTests.swift in Sources */,
 				47B458AC233D67E60011A4F7 /* CustomErrorTests.swift in Sources */,
-				47B458D623424D270011A4F7 /* CPFValidatorTests.swift in Sources */,
-				47B458C2233E93290011A4F7 /* PhoneFormatterTests.swift in Sources */,
-				47B458BA233E4B930011A4F7 /* PhoneValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -556,7 +558,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";

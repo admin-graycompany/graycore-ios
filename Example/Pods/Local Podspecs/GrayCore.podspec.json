@@ -1,22 +1,36 @@
 {
   "name": "GrayCore",
-  "version": "0.1.0",
-  "summary": "A short description of GrayCore.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ricardorauber-gray/GrayCore",
+  "version": "0.1.2",
+  "summary": "iOS tools",
+  "swift_versions": "5.0",
+  "description": "Set of helpful tools for iOS development",
+  "homepage": "https://github.com/admin-graycompany/graycore-ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ricardorauber-gray": "ricardo@graycompany.com.br"
+    "admin-graycompany": "contato@graycompany.com.br"
   },
   "source": {
-    "git": "https://github.com/ricardorauber-gray/GrayCore.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/admin-graycompany/graycore-ios.git",
+    "tag": "0.1.2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "12.4"
   },
-  "source_files": "GrayCore/Classes/**/*"
+  "source_files": "Source/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SwifterSwift": [
+      "5.0.0"
+    ],
+    "PhoneNumberKit": [
+      "3.0.0"
+    ],
+    "CPF-CNPJ-Validator": [
+      "1.0.2"
+    ]
+  },
+  "swift_version": "5.0"
 }

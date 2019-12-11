@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
 	s.source           = { :git => 'https://github.com/admin-graycompany/graycore-ios.git', :tag => s.version.to_s }
 	# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 	
-	s.ios.deployment_target = '11.4'
+	s.ios.deployment_target = '12.4'
 	
 	s.source_files = 'Source/**/*'
 	
@@ -37,5 +37,7 @@ Pod::Spec.new do |s|
 	
 	# s.public_header_files = 'Pod/Classes/**/*.h'
 	s.frameworks = 'UIKit'
-	# s.dependency 'AFNetworking', '~> 2.3'
+	s.dependency 'SwifterSwift', '5.0.0'
+	s.dependency 'PhoneNumberKit', '3.0.0'
+	s.dependency 'CPF-CNPJ-Validator', '1.0.2'
 end

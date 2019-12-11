@@ -1,13 +1,21 @@
 import Foundation
 
-/// Error struct
+/// General custom error
 public struct CustomError: Error, Equatable {
 	
-	/// Message detailing the error
-	let message: String
+	/// Code from the server if available
+	public let code: Int?
 	
-	public init(message: String) {
+	/// Message detailing the error
+	public let message: String
+	
+	/// Status
+	public let status: Int?
+	
+	public init(code: Int? = nil, message: String, status: Int? = nil) {
+		self.code = code
 		self.message = message
+		self.status = status
 	}
 }
 

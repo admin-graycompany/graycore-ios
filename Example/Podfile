@@ -1,11 +1,11 @@
+platform :ios, '12.4'
 use_frameworks!
+inhibit_all_warnings!
 
 target 'GrayCore_Example' do
-  pod 'GrayCore', :path => '../'
-
-  target 'GrayCore_Tests' do
-    inherit! :search_paths
-
-    
-  end
+	pod 'GrayCore', :path => '../'
+	
+	target 'GrayCore_Tests' do
+		inherit! :search_paths
+	end
 end
